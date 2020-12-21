@@ -52,18 +52,19 @@ DNS (Domain Name System) es un sistema de nomenclatura jerárquico que se ocupa 
 13
 
 ## ¿Cuántas redirecciones DNS son posibles?
-12
+Las necesarias hasta encontrar una respuesta o llegar al DNS raíz sin una.
 
 ## ¿Qué son los servidores DNS Raíz?
 Son los servidores DNS que responden las consultas de otros servidores DNS en vez de de usuarios(como hacen los DNS normales)
 
 ## ¿Para qué montar un servidor si simplemente escribiendo en un fichero la relación IP/Nombre el sistema ya funcionaría?
-Para facilitar el uso de internet a los usuarios comunes
+Para facilitar el uso de internet a los usuarios comunes, al actualizarse automaticamente.
 
 ## Según lo expuesto, y si en tu configuración de red del sistema operativo solamente posees un servidor DNS, entonces: ¿cuál sería el proceso para encontrar la IP de la dirección web: http://www.debian.org/distrib/netinst?
-
+Primero comprobaria si la tiene guardada en la cache, después buscaría en el servidor encargado de .org, este le daría el servidor en el que se aloja www.debian.org y este le responde con la ip necesaria.
 
 ## ¿Es posible si dispones de una conexión a Internet con IP dinámica ofrecer servicios en Internet? Es decir, si quieres ofrecer los servicios SND, no dispones de IP estática, esto es, cada vez que te conectas a Internet tu IP, aunque a veces sea la misma, no siempre es la misma. 
-
+Si es posible con un DDNS que se encargaria de mantener actulizada la información.
 
 ## ¿Qué es ICANN?
+Internet Corporation for Assigned Names and Numbers (ICANN) es una organización sin fines de lucro que opera a nivel internacional, responsable de asignar espacio de direcciones numéricas de protocolo de Internet (IP), identificadores de protocolo y de las funciones de gestión [o administración] del sistema de nombres de dominio de primer nivel genéricos (gTLD) y de códigos de países (ccTLD), así como de la administración del sistema de servidores raíz.
