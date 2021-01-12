@@ -16,7 +16,7 @@ por último hay que introducir el comando `crontab -e` para abrir la configuraci
 */5 * * * 1-5 /home/ubuntu/script1.sh
 ```
 comprobación
-![comprobacion script1](img/comprobacion_crontab1.png)
+![comprobacion script1](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/comprobacion_crontab1.png?token=AHC74HKTFAWCNR4N5K4UNMK77WXUQ)
 
 ---
 ## script2
@@ -43,4 +43,4 @@ y por último hay que introducir el comando `crontab -e` para abrir la configura
 */15 * * * 2 /home/ubuntu/script2.sh
 ```
 comprobación
-![comprobacion script2](img/comprobacion_crontab2.png)
+![comprobacion script2](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/comprobacion_crontab2.png?token=AHC74HL63CFJRG4VLD56ROC77WXUU)

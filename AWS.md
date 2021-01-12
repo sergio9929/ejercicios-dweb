@@ -3,26 +3,26 @@
 Amazon EC2 (Amazon Elastic Compute Cloud) proporciona capacidad de computación escalable en la nube de Amazon Web Services (AWS). El uso de Amazon EC2 elimina la necesidad de invertir inicialmente en hardware, puede lanzar tantos servidores virtuales como necesite, configurar la seguridad y las redes y administrar el almacenamiento. También es escalable, lo que le permite adaptarse a los picos de trafico reduciendo la necesidad de previsión (pagas lo que usas).
 
 ## comprobación:
-![inicio instancia web](img/inicio_instancia_web.png)
-![inicio instancia cmd](img/inicio_instancia_cmd.png)
+![inicio instancia web](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/inicio_instancia_web.png?token=AHC74HJEM5GJB5V2PHWVUAC77WXDI)
+![inicio instancia cmd](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/inicio_instancia_cmd.png?token=AHC74HIAZH25IRPRX6XYDPC77WW6C)
 
 # Ejercicio 2. Instalando aplicaciones
 ## ¿Qué es y para qué sirve EC2?
 Amazon EC2 (Amazon Elastic Compute Cloud) proporciona capacidad de computación escalable en la nube de Amazon Web Services (AWS). El uso de Amazon EC2 elimina la necesidad de invertir inicialmente en hardware, puede lanzar tantos servidores virtuales como necesite, configurar la seguridad y las redes y administrar el almacenamiento. También es escalable, lo que le permite adaptarse a los picos de trafico reduciendo la necesidad de previsión (pagas lo que usas).
 
 ## comprobación:
-![status ftp](img/status_ftp.png)
-![status mysql](img/status_mysql.png)
-![status apache2](img/status_apache2.png)
-![apache web](img/apache_web.png)
+![status ftp](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/status_ftp.png?token=AHC74HOUX5QBFZR55YSLACS77WXGE)
+![status mysql](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/status_mysql.png?token=AHC74HNWF6ZWDPZKSRIFQUC77WXHY)
+![status apache2](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/status_apache2.png?token=AHC74HIADAKE7WGS4WMXRNK77WXJC)
+![apache web](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/apache_web.png?token=AHC74HJSGAUUGVQZZVNBNYK77WXKE)
 
 # Ejercicio 3. IP elástica
 ## ¿Qué es y para qué sirve una IP Elástica?
 Las direcciones IP elásticas son direcciones IPv4 estáticas diseñadas para la informática en la nube dinámica. Con una dirección IP elástica, se puede enmascarar los errores de una instancia o software volviendo a mapear rápidamente la dirección a otra instancia. Se asigna a una cuenta de AWS.
 
 ## comprobación:
-![ip elastica](img/ip_elastica.png)
-![ip elastica web](img/ip_elastica_web.png)
+![ip elastica](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/ip_elastica.png?token=AHC74HPPEBXQFSJ57ZXWC4277WXLM)
+![ip elastica web](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/ip_elastica_web.png?token=AHC74HPK4STY6YJDEMMJLSC77WXNM)
 
 # Ejercicio 4. DNS
 ## ¿Qué es y para qué sirve el DNS?
@@ -42,7 +42,7 @@ DNS (Domain Name System) es un sistema de nomenclatura jerárquico que se ocupa 
     1. **PTR**: traduce IP a url.
 
 ## comprobación:
-![dns cpanel](img/dns_cpanel.png)
+![dns cpanel](https://raw.githubusercontent.com/sergio9929/ejercicios-dweb/main/img/dns_cpanel.png?token=AHC74HIXIE6JMOQOZMM7J4S77WXPW)
 1. El primer registro dice que el nombre grupo2.zerbitzaria.net esta asociado a la ip 54.76.1.76.
 1. El segundo resitro dice que el correo mail.grupo2.zerbitzaria.net esta asociado al nombre grupo2.zerbitzaria.net
 1. El tercer registro define la version de SPF a 1, autoriza el envio de correo si la direccion del cliente incluye spf.guebs.net y se encuentra en 54.76.1.76, si no se rechaza.
