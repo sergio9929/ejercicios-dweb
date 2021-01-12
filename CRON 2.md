@@ -11,7 +11,7 @@ luego se le dan los permisos pertinentes
 chmod 777 script1.sh
 ```
 
-por último hay que introducir el comando `crontab -e` para abrir la configuracion de crontab y añadir:
+por último hay que introducir el comando `crontab -e` para abrir la configuración de crontab y añadir:
 ```
 */5 * * * 1-5 /home/ubuntu/script1.sh
 ```
@@ -34,11 +34,11 @@ tar -cf /copias/copia.tar.gz /home/ubuntu
 
 luego se le dan los permisos pertinentes
 ```
-chmod 777 script1.sh
+chmod 777 script2.sh
 chmod 777 /copias
 ```
 
-y por último hay que introducir el comando `crontab -e` para abrir la configuracion de crontab y añadir:
+y por último hay que introducir el comando `crontab -e` para abrir la configuración de crontab y añadir:
 ```
 */15 * * * 2 /home/ubuntu/script2.sh
 ```
