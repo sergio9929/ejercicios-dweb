@@ -4,6 +4,7 @@ primero se crea script1.sh con el siguiente contenido
 #! /bin/bash
 echo `date "+Hello $USER, today is %A, %B %dth, %Y and it's %H:%M:%S. I'm Sergio."` >> date.txt
 ```
+> esto añadirá una linea al archivo date.txt en el que aparecerá el contenido  entrecomillado( \`...\` ) del echo 
 
 luego se le dan los permisos pertinentes
 ```
